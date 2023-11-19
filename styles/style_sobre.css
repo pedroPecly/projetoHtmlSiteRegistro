@@ -1,0 +1,64 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos gerais */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.cabecalho {
+  background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
+  width: 100%;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  border-radius: 7px;
+}
+
+/* Conteúdo */
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Botão Voltar */
+.btn-voltar {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ff6b6b;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn-voltar:hover {
+  background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
+  transition: 0.5s;
+}
+
+
+.conteudo {
+  padding: 0% 5%;
+}
