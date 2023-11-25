@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+#btnVoltar a {
+  color: black;
+}
+
 label {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   display: block;
@@ -91,6 +95,7 @@ ul li {
   background-color: pink;
   color: black;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .cabecalho {
