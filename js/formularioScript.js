@@ -15,4 +15,4 @@ btnEnviar.addEventListener('click', function(){
     } else {
         window.location.href = 'index.html';
     }
-})
+});
